@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: #4361ee;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+ul {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+}
+form {
+  position: relative;
+}
+form input {
+  padding: 8px 12px;
+  border-radius: 1rem;
+  border: none;
+  width: 15rem;
+}
+
+.bars {
+  height: 1.7rem;
+}
+
+.search {
+  position: absolute;
+  right: 5%;
+  color: rgb(162, 162, 162);
+  cursor: pointer;
+  top: 25%;
+  height: 1rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: #f7f7f7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box1 {
+  margin-top: 10rem;
+  height: 25rem;
+}
+
+.box1 div {
+  width: 67%;
+  padding: 2rem;
+  background-color: #e7c6ff;
+  border-radius: 1rem;
+  color: #495057;
+}
+
+.sticky {
+  position: sticky;
+  top: 60%;
+}
+
+.absolute {
+  position: relative;
+  top: 400px;
+}
+
+.social {
+  position: absolute;
+  left: 93%;
+  width: 6.5%;
+  top: -720px;
+}
+
+.whatsapp {
+  position: sticky;
+
+  background-color: #4361ee;
+}
+
+.facebook {
+  background-color: blueviolet;
+}
+
+.twitter {
+  background-color: purple;
+}
+
+.box2 {
+  width: 83%;
+  margin-top: 7rem;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  border-radius: 0.5rem;
+  width: 15rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.box3 {
+  width: 87.9%;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+  color: #000;
+  background-color: #483eff;
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 33rem;
+}
+.left {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.left div {
+  border: 2px solid #fff;
+  color: #fff;
+  width: 80%;
+  padding: 40px 0px;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.left .selected {
+  border: none;
+  color: #000;
+  background-color: #bce0f6;
+}
+
+.right {
+  width: 67%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.details {
+  margin-left: 1.5rem;
+}
+
+.next {
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+  background-color: #000;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.light-purple-color {
+  background-color: #929dff;
+}
+
+.dark-purple-color {
+  background-color: #8338ec;
+}
+
+.purple-color {
+  background-color: #d288ff;
+}
+
+.black-color {
+  background-color: #000;
+}
+
+.help-center {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
